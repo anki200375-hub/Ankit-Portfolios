@@ -15,7 +15,7 @@ import { NotFound } from "@/components/not-found";
 
 import appCss from "../styles.css?url";
 
-const SITE_URL = "https://ankit03.netlify.app";
+const SITE_URL = "https://ankitsharma03.netlify.app";
 
 function ErrorComponent({ error, reset }: ErrorComponentProps) {
   console.error(error);

@@ -7,6 +7,9 @@ import { defineConfig } from "vite";
 // in dist/client, which Netlify serves directly (see netlify.toml).
 export default defineConfig({
   server: { port: 8080 },
+  // Prerendering crawls a temporary preview server; a fixed IPv4 address avoids
+  // intermittent connect timeouts when "localhost" resolves to IPv6 first.
+  preview: { host: "127.0.0.1" },
   resolve: { tsconfigPaths: true },
   plugins: [
     tailwindcss(),

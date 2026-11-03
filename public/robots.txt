@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://ankit03.netlify.app/sitemap.xml
+Sitemap: https://ankitsharma03.netlify.app/sitemap.xml
